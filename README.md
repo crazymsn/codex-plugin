@@ -316,4 +316,6 @@ Do not paste API keys, cookies, tokens, or proprietary bundle chunks into public
 
 ## Credits
 
-Maintained by DeepCloud 深度云创科技.
+欢迎关注B站及YouTube频道：深度云创科技
+
+欢迎私信+v 16773345788，联系我们加入智能体交流社群
