@@ -1,8 +1,8 @@
 # codex-plugin
 
-欢迎关注B站及YouTube频道：深度云创科技
+欢迎关注B站及YouTube频道：深度云创科技，感兴趣的朋友欢迎加入新时代智能体交流社群
 
-欢迎私信+v 16773345788，联系我们加入智能体交流社群
+客服微信：16773345788
 
 [![skills.sh](https://skills.sh/b/crazymsn/codex-plugin)](https://skills.sh/crazymsn/codex-plugin/patch-codex-fast)
 
