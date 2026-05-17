@@ -1,4 +1,4 @@
-# patch-codex-fast
+# codex-plugin
 
 [![skills.sh](https://skills.sh/b/yangchuansheng/patch-codex-fast)](https://skills.sh/yangchuansheng/patch-codex-fast/patch-codex-fast)
 
