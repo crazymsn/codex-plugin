@@ -62,7 +62,7 @@ The task is complete only when the agent has command evidence for the patch or r
 
 For the optional Zed remote-open patch, the task is complete only when the agent has command evidence that `patch-zed-remote` ran or rolled back, and has told the user to verify that a remote Codex file shows Zed under Open With and opens in Zed Remote Development.
 
-See the repository README for the full implementation notes and troubleshooting guide: <https://github.com/yangchuansheng/patch-codex-fast>.
+See the repository README for the full implementation notes and troubleshooting guide: <https://github.com/crazymsn/codex-plugin>.
 
 ## Credits
 

@@ -1,6 +1,6 @@
 # codex-plugin
 
-[![skills.sh](https://skills.sh/b/yangchuansheng/patch-codex-fast)](https://skills.sh/yangchuansheng/patch-codex-fast/patch-codex-fast)
+[![skills.sh](https://skills.sh/b/crazymsn/codex-plugin)](https://skills.sh/crazymsn/codex-plugin/patch-codex-fast)
 
 A Codex skill that patches the local Codex desktop app so **Fast/Speed mode** and **Plugins** are available when Codex is signed in with an **API key** instead of ChatGPT OAuth. It can also optionally patch Codex remote SSH sessions so **Zed** appears as a remote-capable “Open With” target.
 
@@ -27,31 +27,31 @@ You do not need to copy long patch commands manually. The scripts under the skil
 Recommended install through `npx skills`:
 
 ```bash
-npx skills add yangchuansheng/patch-codex-fast -g -a codex -y
+npx skills add crazymsn/codex-plugin -g -a codex -y
 ```
 
 This installs `skills/patch-codex-fast/` as a global Codex skill. You can inspect the available skill before installing:
 
 ```bash
-npx skills add yangchuansheng/patch-codex-fast --list
+npx skills add crazymsn/codex-plugin --list
 ```
 
 For the interactive cross-agent installer, run:
 
 ```bash
-npx skills add yangchuansheng/patch-codex-fast
+npx skills add crazymsn/codex-plugin
 ```
 
 If you want to install the skill package path explicitly, use the GitHub tree URL:
 
 ```bash
-npx skills add https://github.com/yangchuansheng/patch-codex-fast/tree/main/skills/patch-codex-fast -g -a codex -y
+npx skills add https://github.com/crazymsn/codex-plugin/tree/main/skills/patch-codex-fast -g -a codex -y
 ```
 
 Manual install is still possible if you do not want to use `npx skills`:
 
 ```bash
-git clone https://github.com/yangchuansheng/patch-codex-fast.git
+git clone https://github.com/crazymsn/codex-plugin.git
 mkdir -p ~/.codex/skills
 ln -s "$(pwd)/patch-codex-fast/skills/patch-codex-fast" ~/.codex/skills/patch-codex-fast
 ```
@@ -135,11 +135,11 @@ skills/patch-codex-fast/SKILL.md
 
 There is intentionally no root-level `SKILL.md`. The `npx skills` CLI checks a root `SKILL.md` first and returns it by default when present; keeping only the canonical `skills/patch-codex-fast/` package prevents the root entry from shadowing the package path that skills.sh uses for the detail page and download snapshot.
 
-The skills.sh page is expected at <https://skills.sh/yangchuansheng/patch-codex-fast/patch-codex-fast>. If the SKILL.md preview lags after a push, verify the GitHub source and CLI install first:
+The skills.sh page is expected at <https://skills.sh/crazymsn/codex-plugin/patch-codex-fast>. If the SKILL.md preview lags after a push, verify the GitHub source and CLI install first:
 
 ```bash
-npx skills add yangchuansheng/patch-codex-fast --list
-npx skills add yangchuansheng/patch-codex-fast -g -a codex --skill patch-codex-fast -y --copy
+npx skills add crazymsn/codex-plugin --list
+npx skills add crazymsn/codex-plugin -g -a codex --skill patch-codex-fast -y --copy
 ```
 
 ## Direct script usage
