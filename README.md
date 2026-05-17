@@ -1,5 +1,9 @@
 # codex-plugin
 
+欢迎关注B站及YouTube频道：深度云创科技
+
+欢迎私信+v 16773345788，联系我们加入智能体交流社群
+
 [![skills.sh](https://skills.sh/b/crazymsn/codex-plugin)](https://skills.sh/crazymsn/codex-plugin/patch-codex-fast)
 
 A Codex skill that patches the local Codex desktop app so **Fast/Speed mode** and **Plugins** are available when Codex is signed in with an **API key** instead of ChatGPT OAuth. It can also optionally patch Codex remote SSH sessions so **Zed** appears as a remote-capable “Open With” target.
@@ -313,9 +317,3 @@ grep -rl "vscode-remote://" app/.vite/build
 The current Zed patch uses Zed’s documented Remote Development URL form, `ssh://[user@]host[:port]/path`. It prefers Codex’s structured SSH config (`user`/`username`, `host`/`hostname`/`hostName`, `port`) instead of the display alias so Zed does not accidentally try the local macOS username for a remote host. Line and column support for remote URLs still needs UI verification on a real SSH target; installing the Zed CLI on `PATH` improves line/column refinement after the app is opened.
 
 Do not paste API keys, cookies, tokens, or proprietary bundle chunks into public issues.
-
-## Credits
-
-欢迎关注B站及YouTube频道：深度云创科技
-
-欢迎私信+v 16773345788，联系我们加入智能体交流社群
